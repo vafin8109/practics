@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-banner {
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.nav-links li {
+    color: #232323;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links li:hover {
+    color: blue;
+}
+
+.register {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+}
+
+.login {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.register:focus {
+    outline: none;
+}
+
+.login:focus {
+    outline: none;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-button {
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+    color: blue;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.about-button:focus {
+    outline: none;
+}
+
+.about-button:hover {
+    border: none;
+}
+
+.first-text {
+    color: #232323;
+}
+
+.second-text {
+    color: blue;
+}
+
+.slider-container {
+    max-width: 600px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+
+.slider-container .slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accordion-title {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.accordion-icon {
+    font-size: 24px;
+}
